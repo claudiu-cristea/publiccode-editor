@@ -81,7 +81,7 @@ class Index extends Component {
 
   async componentDidMount() {
     await this.initData();
-    this.switchLang("it");
+    this.switchLang("en");
     this.switchCountry("it");
 
     // checks whether url query parameter

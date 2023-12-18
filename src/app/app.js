@@ -30,7 +30,7 @@ export default class App extends Component {
         {this.state.loadingRemote && (
         <div className="d-flex align-items-center col-12 position-absolute h-100 w-100">
           <div className="mr-auto ml-auto">
-            <h3>Validazione in corso</h3>
+            <h3>Validation in progress</h3>
             <div className="spinner-grow text-primary" role="status" aria-hidden="true"></div>
           </div>
         </div>
